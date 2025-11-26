@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_OnePlus7T.mk
+    $(LOCAL_DIR)/twrp_OnePlus7T.mk
 
 COMMON_LUNCH_CHOICES := \
-    omni_OnePlus7T-user \
-    omni_OnePlus7T-userdebug \
-    omni_OnePlus7T-eng
+    twrp_OnePlus7T-user \
+    twrp_OnePlus7T-userdebug \
+    twrp_OnePlus7T-eng

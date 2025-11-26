@@ -13,12 +13,12 @@ ALLOW_MISSING_DEPENDENCIES := true
 # A/B
 AB_OTA_UPDATER := true
 AB_OTA_PARTITIONS += \
-    system \
-    product \
-    system_ext \
     vendor \
     odm \
-    vendor_dlkm
+    vendor_dlkm \
+    system \
+    product \
+    system_ext
 BOARD_USES_RECOVERY_AS_BOOT := true
 
 # Architecture
@@ -114,3 +114,8 @@ TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
 TW_INCLUDE_REPACKTOOLS := true
+TW_MAX_BRIGHTNESS := 255
+TW_NO_SCREEN_TIMEOUT := true
+TW_NO_BATT_PERCENT := true
+TW_DEFAULT_BRIGHTNESS := 150
+BUILD_BROKEN_DUP_RULES := true
